@@ -1,0 +1,2 @@
+# graphQLDemo
+Trying out GraphQL
