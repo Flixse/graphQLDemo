@@ -1,0 +1,15 @@
+#type Query {
+#    dogById(id: ID!): Dog
+#}
+#
+#type Dog{
+#    id: ID!
+#    name: String
+#    veterinaryId: ID!
+#}
+#
+#type Veterinary{
+#    id: ID
+#    name: String
+#    dogs: [ID]
+#}
