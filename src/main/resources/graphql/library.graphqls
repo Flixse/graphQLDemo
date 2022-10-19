@@ -4,8 +4,8 @@ type Query {
     authorOfBook(bookId: ID): Author
     hello: String
     dogById(id: ID!): Dog
+
     dogs: [Dog]
-    dogs(id: ID): Dog
  }
 
 type Book {

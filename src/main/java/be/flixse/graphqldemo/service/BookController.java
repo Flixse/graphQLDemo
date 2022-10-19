@@ -42,6 +42,6 @@ public class BookController {
     // low regression risk and smooth moving between API versions
     //--------------------------------------------------------
     // Issues with GraphQL :
-    // Security issue with exhaustive GraphQL queries that make things extremely sow
+    // Security issue with exhaustive GraphQL queries that make things extremely slow
     // Does not take advantage of the HTTP cache
 }
