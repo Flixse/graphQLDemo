@@ -20,6 +20,9 @@ public class VeterinaryController {
         return Dog.getById(id);
     }
 
+    @QueryMapping List<Dog> dogs(){
+        return Dog.getAllDogs();
+    }
     @SchemaMapping
     public Veterinary veterinary(Dog dog){
         return Veterinary.getById(dog.getVeterinaryId());

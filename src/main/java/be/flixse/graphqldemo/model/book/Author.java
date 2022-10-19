@@ -9,7 +9,7 @@ public class Author {
     private String firstName;
     private String lastName;
 
-    private String uMama = "UMamaIsMama";
+    private String randomString = "Some damn random string";
 
     public Author(String id, String firstName, String lastName) {
         this.id = id;
@@ -47,7 +47,7 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getuMama() {
-        return uMama;
+    public String getRandomString() {
+        return randomString;
     }
 }

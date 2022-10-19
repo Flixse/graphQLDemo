@@ -1,0 +1,102 @@
+{
+  dogById(id: "id1") {
+    name
+    id
+    veterinary {
+      id
+      dogs {
+        name
+        veterinary {
+          id
+          dogs {
+            id
+            veterinary {
+              id
+              dogs {
+                name
+                veterinary {
+                  id
+                  dogs {
+                    id
+                    veterinary {
+                      id
+                      dogs {
+                        name
+                        veterinary {
+                          id
+                          dogs {
+                            id
+                            veterinary {
+                              id
+                              dogs {
+                                name
+                                veterinary {
+                                  id
+                                  dogs {
+                                    id
+                                    veterinary {
+                                      id
+                                      dogs {
+                                        name
+                                        veterinary {
+                                          id
+                                          dogs {
+                                            id
+                                            veterinary {
+                                              id
+                                              dogs {
+                                                name
+                                                veterinary {
+                                                  id
+                                                  dogs {
+                                                    id
+                                                    veterinary {
+                                                      id
+                                                      dogs {
+                                                        name
+                                                        veterinary {
+                                                          id
+                                                          dogs {
+                                                            id
+                                                            veterinary {
+                                                              id
+                                                              dogs {
+                                                                name
+                                                                veterinary {
+                                                                  id
+                                                                  dogs {
+                                                                    id
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

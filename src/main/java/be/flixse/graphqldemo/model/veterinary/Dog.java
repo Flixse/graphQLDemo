@@ -24,6 +24,10 @@ public class Dog {
             new Dog("id5", "Bas", "veterinaryId2")
     );
 
+    public static List<Dog> getAllDogs(){
+        return dogs;
+    }
+
     public static Dog getById(String id) {
         return dogs.stream()
                 .filter(dog -> dog.getId().equals(id))

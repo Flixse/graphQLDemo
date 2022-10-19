@@ -1,0 +1,5 @@
+{
+  authorOfBook(bookId: "book-2"){
+    firstName
+  }
+}
